@@ -18,10 +18,11 @@ char *m_strncat(char *dst, const char *src, m_size_t n);
 // comparison functions
 int m_memcmp(const void *ptr1, const void *ptr2, m_size_t n);
 int m_strcmp(const char *str1, const char *str2);
-/* strcoll is not implemented */
+// strcoll is not implemented
 int m_strncmp(const char *str1, const char *str2, m_size_t n);
-/* strxfrm is not implemented */
+// strxfrm is not implemented
 
+/* NOT IMPLEMENTED YET
 // searching functions
 const void *m_memchr(const void *ptr, int val, m_size_t n);
 const char *m_strchr(char *str, int c);
@@ -37,7 +38,7 @@ char *m_strtok(char *str, const char *split);
 
 // other functions
 void *m_memset(void *ptr, int value, m_size_t num);
-/* strerror is not implemented */
+// strerror is not implemented
 m_size_t m_strlen(const char *str);
-
+*/
 #endif // !__MSTRING_H
